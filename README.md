@@ -3,7 +3,7 @@
 Material de la **Sesión 8 de Investigación Aumentada** (jueves 19 de noviembre de 2026).
 Andrez Felipe Guerrero Torres.
 
-Este repositorio acompaña la sesión: una ficha en markdown que se llena en vivo, una guía de Teachable Machine y siete notebooks, uno por ejemplo, listos para correr en Google Colab sin instalar nada. Todas las cifras de la presentación salen de estos notebooks.
+Este repositorio acompaña la sesión: una ficha en markdown que se llena en vivo, una guía de Teachable Machine y ocho notebooks, uno por ejemplo, listos para correr en Google Colab sin instalar nada. Todas las cifras de la presentación salen de estos notebooks.
 
 ## Cuaderno de la sesión
 
@@ -24,6 +24,7 @@ Este repositorio acompaña la sesión: una ficha en markdown que se llena en viv
 | 05 | Pronóstico del tráfico aéreo con ARIMA | Serie de tiempo | Supervisado | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andrezconz/investigacion-aumentada-ml/blob/main/notebooks/05_series_tiempo_trafico_aereo.ipynb) |
 | 06 | Codificar textos con pocos ejemplos | Texto | Mixto (semi-supervisado) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andrezconz/investigacion-aumentada-ml/blob/main/notebooks/06_texto_semisupervisado.ipynb) |
 | 07 | Una red neuronal que lee dígitos (y se equivoca) | Imágenes | Supervisado | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andrezconz/investigacion-aumentada-ml/blob/main/notebooks/07_red_neuronal_digitos.ipynb) |
+| 08 | Medir un modelo: dividir los datos, ecuación de Mincer y focalización tipo Sisbén (accuracy, precision, recall, F1, AUC-ROC) | Datos duros (simulados) | Supervisado | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andrezconz/investigacion-aumentada-ml/blob/main/notebooks/08_metricas_mincer_sisben.ipynb) |
 
 ## Qué hay aquí
 
@@ -38,13 +39,13 @@ ficha/
 skill/
   SKILL.md                la ficha convertida en skill para un asistente de IA
 teachable_machine.md      guía para entrenar un clasificador de imágenes sin código
-notebooks/                siete notebooks para Google Colab
+notebooks/                ocho notebooks para Google Colab
 datos/                    los datos que usan los notebooks
 ```
 
 ## La sesión en dos partes
 
-**Parte 1 · Conceptos y ejemplos:** qué es machine learning, capacidad y límites, tipos de datos y cinco proyectos con datos reales.
+**Parte 1 · Conceptos y ejemplos:** bases del machine learning (vocabulario, familias, siete tareas, la ecuación de Mincer); datos, medición y límites (dividir en entrenamiento, validación y prueba; preparar, optimizar, remuestrear, bootstrap; accuracy, precision, recall, F1 y AUC-ROC con un ejemplo tipo Sisbén); tipos de datos y tres proyectos reales. Mientras avanza, cada asistente escribe su skill de ML en un bloc de notas (`mi-skill-ml.md`).
 **Parte 2 · Aplicación con IA:** archivos .md y la ficha en vivo, Teachable Machine, niveles de delegación, herramientas y notebooks, y la skill.
 
 ## La ficha en vivo
