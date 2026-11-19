@@ -5,6 +5,10 @@ Andrez Felipe Guerrero Torres.
 
 Este repositorio acompaña la sesión: una ficha en markdown que se llena en vivo, una guía de Teachable Machine y siete notebooks, uno por ejemplo, listos para correr en Google Colab sin instalar nada. Todas las cifras de la presentación salen de estos notebooks.
 
+## Cuaderno de la sesión
+
+[**Descargar el cuaderno en PDF**](cuaderno/cuaderno_sesion8_machine_learning.pdf): conceptos, los cinco casos con su tip, herramientas por tipo de dato, la ficha completa, la skill, prompts para copiar y glosario.
+
 ## Cómo usarlo
 
 1. Abre un notebook con el botón **Abrir en Colab**.
@@ -24,6 +28,9 @@ Este repositorio acompaña la sesión: una ficha en markdown que se llena en viv
 ## Qué hay aquí
 
 ```
+cuaderno/
+  cuaderno_sesion8_machine_learning.pdf   todo el contenido de la sesión en PDF
+prompts.md                prompts para copiar, para usar junto con la ficha
 ficha/
   ficha_en_vivo.md        plantilla que se llena durante la sesión, bloque a bloque
   ficha_luces_cauca.md    la misma ficha, completa, para el caso del Cauca
