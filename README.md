@@ -42,16 +42,24 @@ notebooks/                siete notebooks para Google Colab
 datos/                    los datos que usan los notebooks
 ```
 
+## La sesión en dos partes
+
+**Parte 1 · Conceptos y ejemplos:** qué es machine learning, capacidad y límites, tipos de datos y cinco proyectos con datos reales.
+**Parte 2 · Aplicación con IA:** archivos .md y la ficha en vivo, Teachable Machine, niveles de delegación, herramientas y notebooks, y la skill.
+
 ## La ficha en vivo
 
-| Bloque | Qué llenamos |
+Se llena en el bloque 5 con el caso de las luces nocturnas del Cauca. Cada sección aplica un concepto de la parte 1:
+
+| Sección de la ficha | Concepto de la parte 1 |
 |---|---|
-| 1 · Preparar el terreno con IA | Pregunta y unidad de análisis |
-| 2 · Qué es machine learning | Familia de ML |
-| 3 · Capacidad y agencia | Criterios y cómo verifico |
-| 4 · Tipos de datos | Variables y estado del dato |
-| 5 · Colombia vista con datos | Herramienta |
-| 6 · Cierre | Convertirla en skill |
+| Pregunta de investigación | La pregunta define la familia |
+| Unidad de análisis | Tipos de datos |
+| Familia de ML | Supervisado, no supervisado y mixto |
+| Criterios | Capacidad y límites |
+| Cómo verifico | Datos de prueba |
+| Variables y estado del dato | Duros, crudos, sin etiqueta |
+| Herramienta | Herramientas por tipo de dato |
 
 ## Fuentes de los datos
 
