@@ -3,7 +3,7 @@
 Material de la **Sesión 8 de Investigación Aumentada** (jueves 19 de noviembre de 2026).
 Andrez Felipe Guerrero Torres.
 
-Este repositorio acompaña la sesión: una ficha en markdown que se llena en vivo, una guía de Teachable Machine y un notebook por cada ejemplo, listos para correr en Google Colab sin instalar nada.
+Este repositorio acompaña la sesión: una ficha en markdown que se llena en vivo, una guía de Teachable Machine y siete notebooks, uno por ejemplo, listos para correr en Google Colab sin instalar nada. Todas las cifras de la presentación salen de estos notebooks.
 
 ## Cómo usarlo
 
@@ -17,8 +17,9 @@ Este repositorio acompaña la sesión: una ficha en markdown que se llena en viv
 | 02 | K-Means: ¿existen tipos de países? | Datos duros | No supervisado | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andrezconz/investigacion-aumentada-ml/blob/main/notebooks/02_no_supervisado_kmeans_paises.ipynb) |
 | 03 | Limpieza de nombres e Isolation Forest | Datos crudos | No supervisado | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andrezconz/investigacion-aumentada-ml/blob/main/notebooks/03_datos_crudos_nombres.ipynb) |
 | 04 | Luces nocturnas del Cauca, 2014 y 2026 | Imágenes de satélite | Comparación y no supervisado | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andrezconz/investigacion-aumentada-ml/blob/main/notebooks/04_imagenes_luces_cauca.ipynb) |
-| 05 | Pronóstico de El Niño con ARIMA | Serie de tiempo | Supervisado | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andrezconz/investigacion-aumentada-ml/blob/main/notebooks/05_series_tiempo_el_nino.ipynb) |
+| 05 | Pronóstico del tráfico aéreo con ARIMA | Serie de tiempo | Supervisado | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andrezconz/investigacion-aumentada-ml/blob/main/notebooks/05_series_tiempo_trafico_aereo.ipynb) |
 | 06 | Codificar textos con pocos ejemplos | Texto | Mixto (semi-supervisado) | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andrezconz/investigacion-aumentada-ml/blob/main/notebooks/06_texto_semisupervisado.ipynb) |
+| 07 | Una red neuronal que lee dígitos (y se equivoca) | Imágenes | Supervisado | [![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/andrezconz/investigacion-aumentada-ml/blob/main/notebooks/07_red_neuronal_digitos.ipynb) |
 
 ## Qué hay aquí
 
@@ -30,7 +31,7 @@ ficha/
 skill/
   SKILL.md                la ficha convertida en skill para un asistente de IA
 teachable_machine.md      guía para entrenar un clasificador de imágenes sin código
-notebooks/                seis notebooks para Google Colab
+notebooks/                siete notebooks para Google Colab
 datos/                    los datos que usan los notebooks
 ```
 
@@ -51,7 +52,8 @@ datos/                    los datos que usan los notebooks
 - `desarrollo_paises_real.csv`: Banco Mundial (WDI y Worldwide Governance Indicators) y PNUD (IDH).
 - `cauca_viirs_2014.tif`, `cauca_viirs_2026.tif`: NOAA VIIRS DNB, compuestos mensuales de enero a mayo vía Google Earth Engine, recortados al Cauca.
 - `cauca_limite.geojson`: Marco Geoestadístico Nacional, DANE.
-- El Niño (notebook 05): NOAA Physical Sciences Laboratory, Oceanic Niño Index. Se descarga al correr el notebook.
+- `tsa_trafico_diario.csv`: TSA (Transportation Security Administration, EE. UU.), pasajeros diarios en controles de seguridad publicados en tsa.gov.
+- Dígitos (notebook 07): Optical Recognition of Handwritten Digits, UCI Machine Learning Repository, incluido en scikit-learn.
 - `nombres_ejemplo.csv` y `fragmentos_practica.csv`: **ficticios**, construidos para la práctica.
 
 Procesamiento y notebooks: elaboración propia.
